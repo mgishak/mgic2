@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*------top---------*/
+#top {
+    
+    
+}
+#top ul {
+    text-align: center;
+    list-style: none;
+    margin:4px 10px 4px;
+    
+   
+}
+#top ul li {
+    margin-left: 15px;
+    display:inline-block;
+    line-height: 10px;
+    font-size: 10px;
+   
+
+}
+
+#top ul li a {
+
+}
+#top ul li span {
+
+}
+#top ul li i {
+    margin:0 10px 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: white;
+    transition: .5s;
+}
+#top ul li span {
+    color: white;
+  
+}
+#top ul li i:hover {
+    color: cornsilk;
+    background-color: rgb(103, 103, 230);
+}
+
+/*------top2------------*/
+#top2 {
+    margin-top: 5px;
+}
+#top2 ul {
+    margin-top: 8px;
+    list-style: none;
+    position: relative;
+    
+    
+}
+#top2 ul li {
+   
+ margin-left: 60px;
+}
+#top2 ul li i {
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top:0px;
+    left:8px;
+    margin-right: 5px 10px;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+    color: rgb(130, 199, 226);
+    transition: .5s;
+}
+#top2 ul li span {
+ color: rgb(139, 139, 139);
+ font-weight: 500;
+}
+#top2 ul li i:hover{
+    color: white;
+    background-color:rgb(136, 128, 252);
+}
+
+/*------------nav---------*/
+#nav img {
+    margin: -18px 0 -10px 0;
+    height:50px;
+    weight:50px;
+    border-radius: 50%;
+}
+#nav ul {
+   margin: auto;
+}
+#nav {
+
+    border-radius: 20px;
+    margin: 0px;
+    background-color: rgb(57, 212, 78);
+}
+#nav ul li a {
+    font-weight: 600;
+}
+#nav {
+    margin: 30px 80px 10px 50px;
+}
+#navall {
+    padding-top: 20px;
+  position: relative;
+}
+#navall li a:hover {
+    color: yellow;
+}
+#navall li .dropdown-item:hover {
+    color:rgb(0, 0, 207);
+}
+
+/*-----------navigation article-----------*/
+#ar {
+  text-align: center;
+    padding:80px 0 20px 0;
+}
+#ar h1 {
+    text-align: center;
+  color:white;
+}
+#ar p {
+  color: white;
+  margin: 20px;
+}
+#ar span {
+    display: block;
+    border:30px;
+    padding: 30px;
+    margin-bottom: 80px;
+}
+/*-----------image card----*/
+
+#imgc {
+    margin:-60px 0px 0px;
+    padding:0px;
+}
+#imgc .card {
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px rgb(153, 153, 153);
+}
+#imgc .row {
+    margin: 0px 0px;
+}
+#imgc .card:hover {
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+/*--------about--------------*/
+#about{
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+    
+}
+
+#about h4 {
+    color: rgb(88, 82, 82);
+}
+#about ul {
+    margin-top: 40px;
+    list-style: none;
+}
+#about ul li {
+        margin-top: 30px;
+}
+#about ul li i {
+    position: absolute;
+    transform: translate(-160px,0px);
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    transition: .5s;
+    
+
+}
+#about ul li h6 {
+    margin-bottom: 5px;
+
+}
+#about ul li i:hover {
+    background-color: rgb(88, 88, 238);
+    color: white;
+    max-width: 300px;
+    max-height: 300px;
+}
+#abimg {}
+
+  
+#abimg  img {
+    max-width: 250px;
+    margin: 30px auto;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/*---------------servicer------------*/
+#ser {
+   margin: 40px 0px 0px 0px;
+}
+#services{ margin-top: 90px;
+    text-align:center;
+}
+
+#services h4::after {
+    content: '';
+    background-color: rgb(241, 236, 236);
+    height: 1px;
+    display: block;
+    margin:10px auto;
+}
+#ser ul{
+    border: 1px solid rgb(202, 200, 200)  ;
+    list-style: none;
+    text-align: center;
+    padding: 0px 3px 50px;
+    margin: 30px 0 ;
+    border-radius: 10px ;
+
+
+}
+#ser ul li {
+    position: relative;
+     margin-top: 35px;
+}
+#ser ul li i {
+    transition: .5s;
+    position: absolute;
+    background-color: rgb(252, 245, 245);
+    padding: 30px;
+    border-radius: 50%;
+    margin-top: -80px;
+    transform: translate(-50%);
+}
+#ser ul li span {
+    font-style: italic  ;
+}
+#ser ul li i:hover {
+    background-color: rgb(92, 92, 252);
+    color: white;
+}
+#services h4 {
+    text-align: center;
+    margin: 80px 0 0px;
+    color: rgb(71, 67, 67);
+}
+/*gallery-----------------*/
+
+#gallery {
+    padding-top: 20px;
+    text-align: center;
+    background-color:rgb(245, 245, 245);
+}
+#gallery h4 {
+    margin: 40px;
+    color: rgb(110, 110, 110);
+    margin-bottom:0px ;
+}
+#gallery .row {
+
+}
+#cdi {
+    box-shadow: 2px 2px 8px rgb(121, 121, 121);
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px;
+    border-radius: 8px 8px 0 0 ;
+    margin-top: 20px;
+    
+}
+#cdi img {
+    width:100%;
+    border-radius: 8px 8px 0 0;
+}
+#cdi span {
+    background-color: rgb(94, 117, 247);
+    padding: 30px 0;
+    display: block;
+    color: white;
+}
+#gallery h4::after {
+    content: '';
+    background-color: rgb(121, 121, 121);
+    height: 1px;
+    display: block;
+    margin: auto;
+    margin: 10px 0;
+}
+
+
+/*--------Md----------------------*/
+#md0{
+    background-color: rgb(255, 255, 255)
+}
+#md {
+    margin:80px auto;
+    
+}
+#md .media {
+ 
+}
+#md .media img {
+   width:80px;
+   height: 80px;
+   border-radius: 50%;
+}
+
+#md0 .media {
+    border:1px solid rgb(146, 141, 141);
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(90, 86, 86);
+}
+/**--------------admin------------------*/
+
+#admin1 {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(241, 240, 240);
+}
+#admin1 p h4 {
+   margin-top: -30px;
+}
+#admin2 .card{
+    display: block;
+    margin: 10px auto ;
+    box-shadow: 1px 1px 6px rgb(104, 98, 98);
+}
+#admin2 i {
+    color:rgb(147, 108, 255);
+    padding: 10px ;
+
+}
+#admin2 p {
+
+}
+#admin2 img {
+ 
+}
+#admin2 address span {
+    display: inline-block;
+    color:rgb(167, 32, 32)(87, 25, 25);
+}
+
+#admin1 h4::after {
+    content: '';
+    background-color: rgb(177, 172, 172);
+    height: 1px;
+    display: block;
+    margin: auto;
+    margin: 20px 0 20px;
+}
+#admin2 {
+    
+}
+/*------------contact----------------*/
+#con1 {
+
+    margin: 20px 0 ;
+}
+#contact{background-color: rgb(24, 22, 22);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+   
+}
+
+#contact small{
+    font-style: italic;
+}
+#contact ul{
+    list-style: none;
+}
+#contact ul li {
+    display:inline-block;
+}
+#contact ul li a {
+    text-decoration: none;
+}
+#contact ul li a i {
+    padding: 15px;
+    background-color: rgb(221, 217, 217);
+    border-radius: 50%;
+}
+#contact ul li a i:hover{
+    color: rgb(241, 241, 241);
+    background-color: rgb(79, 79, 255);
+}
+#contact .btn {
+    padding: 1px;
+    margin: 18px 0;
+}
+/*----------------------*/
+#member {
+    margin: 20px 0 ;
+}
+#member h5{
+}
+#memcer ul {
+}
+#member ul li{
+  display: block;
+  margin-left:60px;
+  text-align: left;
+ padding:8px;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+#member ul li a{
+     
+     color: rgb(79, 212, 79);
+}
+#member ul li:last-child {
+    border-bottom: 0px solid;
+}
+#member ul li a:hover {
+    color:white; 
+}
+
+#con3 code {
+    display: block;
+    line-height:1.5;
+    margin-bottom: 25px;
+}
+
+#con4 img {
+    height: 70px;
+    width: 70px;
+    margin: 15px auto;
+ 
+}
+/*----------bottom nav------------*/
+#bn {
+    background-color: rgb(24, 22, 22) ;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+#bn ul{
+    list-style: none;
+    text-align: center;
+}
+#bn ul li {
+    display: inline-block;
+    padding: 10px;
+    transition:.5s ;
+}
+#bn ul li a {
+    color:white;
+}
+#bn ul li a i:hover {
+    text-decoration: none;
+    color: rgb(101, 101, 243);
+}
+#bn ul li a:hover {
+    color:rgb(101, 101, 243);
+    text-decoration:none;
+}
+#bn hr {
+   background-color: rgb(90, 90, 90);
+}
+/*--------------footer-----------*/
+#footer {
+    background-color: black;
+    padding: 10px;
+    
+}
+#footer small {
+    color:white;
+}
+
+#footer code {
+    float:right;
+    margin-right: 20px;
+}
